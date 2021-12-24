@@ -47,8 +47,8 @@ const Card = (props) => {
                 <div class="card-body">
                     <h5 class="card-title text-center">Category : {props.data.category}</h5>
                     <h5 class="card-title text-center">FoodItem : {props.data.foodItem}</h5>
-                    <h5 class="card-title text-center">link : <a href={props.data.link}>{props.data.link}</a></h5>
                     <h6 class="card-title text-center p-3"> <h4 style={{fontWeight:"700"}}>Preparation</h4> : {props.data.preparation}</h6>
+                    <h5 class="card-title text-center">link : <a href={props.data.link}>{props.data.link}</a></h5>
                   
                     {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                 </div>
